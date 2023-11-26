@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm"> PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 24 May
+                </div>
+                <div class="others" id="current-weather-items">
+                    <div class="weather-items">
+                        <div>Humidity</div>
+                        <div>95.2%</div>
+                    </div>
+                    <div class="weather-items">
+                        <div>Pressure</div> <!-- Corrected typo: "Pressur" to "Pressure" -->
+                        <div>121</div>
+                    </div>
+                    <div class="weather-items">
+                        <div>Wind_speed</div>
+                        <div>222</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="place-container">
+                <div class="time-zone" id="time-zone"> Asia/kolkata</div>
+                <div id="country" class="country">INDIA</div>
+            </div>
+        </div>
+        <div class="future-forcast"> <!-- Corrected class name: "Future-forcast" to "future-forcast" -->
+            <div class="today" id="current-temp">
+                <div class="day">monday</div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon" height="85px" width="60px">
+                <div class="temp">night-25.6&#176; c </div>
+                <div class="temp">day-36.6&#176; c </div>
+            </div>
+            <div class="weather-forcast" id="weather-forcast">
+                <div class="weather-forcast-items">
+                    <div class="day">Tuesday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon" height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+                <div class="weather-forcast-items">
+                    <div class="day">Wednesday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon" height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+                <div class="weather-forcast-items">
+                    <div class="day">Thursday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon" height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+                <div class="weather-forcast-items">
+                    <div class="day">Friday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon"  height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+                <div class="weather-forcast-items">
+                    <div class="day">Saturday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon"  height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+                <div class="weather-forcast-items">
+                    <div class="day">Sunday</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAU9nQjHDYZGsapjWWlZhdl4MfcZunn0aQg&usqp=CAU" alt="weather icon"  height="85px" width="60px">
+                    <div class="temp">night-25.6&#176; c </div>
+                    <div class="temp">day-36.6&#176; c </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
+        integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>
